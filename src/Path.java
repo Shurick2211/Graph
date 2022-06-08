@@ -2,20 +2,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Path {
-  private int distance;
+  private int cost;
   private List<Integer> parentVertices;
 
-  public Path(int distance) {
-    this.distance = distance;
+  public Path(int cost) {
+    this.cost = cost;
     this.parentVertices = new ArrayList<>();
   }
 
-  public int getDistance() {
-    return distance;
+
+  public int getCost() {
+    return cost;
   }
 
-  public void setDistance(int distance) {
-    this.distance = distance;
+  public void setCost(int cost) {
+    this.cost = cost;
   }
 
   public List<Integer> getParentVertices() {
