@@ -4,6 +4,7 @@ public class Vertex {
 
   public Vertex(String label) {
     this.label = label;
+    this.isInTree = false;
   }
 
   public Vertex(String label, boolean isInTree) {

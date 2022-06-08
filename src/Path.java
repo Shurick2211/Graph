@@ -25,4 +25,5 @@ public class Path {
   public void setParentVertices(List<Integer> parentVertices) {
     this.parentVertices = parentVertices;
   }
+
 }
